@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="115.0" prefWidth="345.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.dep12.fx.navigation.controller.MainViewController">
+   <children>
+      <TextField fx:id="txtMessage" layoutX="50.0" layoutY="67.0" promptText="Eg : Hello" />
+      <Button layoutX="249.0" layoutY="67.0" mnemonicParsing="false" onAction="#btnSendOnAction" text="SEND" />
+      <Label layoutX="50.0" layoutY="43.0" text="Enter Something to send" />
+      <Label layoutX="20.0" layoutY="14.0" prefHeight="16.0" prefWidth="234.0" text="Data Transferring">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
